@@ -4,12 +4,12 @@ var books = [];
 
 for (var i = 0; i < rows; i++) {
     var tit = document.getElementById('title' + i);
+    console.log(tit);
     var date = document.getElementById('date_published' + i);
     var Author = document.getElementById('author' + i);
     var rev = document.getElementById('reviews' + i);
     var Rate = document.getElementById('rate' + i);
-    var Img = document.getElementById('image' + i);
-    console.log(tit);
+    var Img = document.getElementById('image' + i);    
     books.push({ title: tit.innerHTML, date_published: date.innerHTML, author: Author.innerHTML, reviews: rev.innerHTML, rate: Rate.innerHTML, img: Img.innerHTML });
     console.log(books[i]);
 }
