@@ -3,6 +3,7 @@ console.log(rows);
 var books = [];
 
 for (var i = 0; i < rows; i++) {
+    console.log(rows);
     var tit = document.getElementById('title' + i);
     console.log(tit);
     var date = document.getElementById('date_published' + i);
