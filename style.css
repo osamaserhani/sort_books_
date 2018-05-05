@@ -45,3 +45,7 @@ img{
 #nav .active {
   background-color :chocolate;
 }
+body {
+  background-image: url("https://assets.awwwards.com/awards/images/2015/04/pattern.jpg")
+
+}
