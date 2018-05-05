@@ -10,6 +10,7 @@ var Rate = document.getElementById('rate'+i);
 var Img = document.getElementById('image'+i);
 
 books.push({title: tit.innerHTML,date_published: date.innerHTML,author: Author.innerHTML,reviews: rev.innerHTML,rate: Rate.innerHTML,img: Img.innerHTML});
+  console.log(books[i]);
 }
 
 // Default sort
